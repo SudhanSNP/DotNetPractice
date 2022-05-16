@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "PRc0AJrO2KsDZecW0NI0bTAcMOWXST1CRocvL3MhVJFTgHOjP0y2HpjRCwAB/kR+DYEYdqvWalOtPuOH55884Q==",
+  "success": true,
+  "projectFilePath": "C:\\DotNet\\DotNetPractice\\Helpers\\Helpers.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sudhan_Sankara_Naray\\.nuget\\packages\\dotnetseleniumextras.waithelpers\\3.11.0\\dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512",
+    "C:\\Users\\Sudhan_Sankara_Naray\\.nuget\\packages\\microsoft.codecoverage\\17.2.0\\microsoft.codecoverage.17.2.0.nupkg.sha512",
+    "C:\\Users\\Sudhan_Sankara_Naray\\.nuget\\packages\\microsoft.net.test.sdk\\17.2.0\\microsoft.net.test.sdk.17.2.0.nupkg.sha512",
+    "C:\\Users\\Sudhan_Sankara_Naray\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.2.0\\microsoft.testplatform.objectmodel.17.2.0.nupkg.sha512",
+    "C:\\Users\\Sudhan_Sankara_Naray\\.nuget\\packages\\microsoft.testplatform.testhost\\17.2.0\\microsoft.testplatform.testhost.17.2.0.nupkg.sha512",
+    "C:\\Users\\Sudhan_Sankara_Naray\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Sudhan_Sankara_Naray\\.nuget\\packages\\nuget.frameworks\\5.11.0\\nuget.frameworks.5.11.0.nupkg.sha512",
+    "C:\\Users\\Sudhan_Sankara_Naray\\.nuget\\packages\\nunit3testadapter\\4.2.1\\nunit3testadapter.4.2.1.nupkg.sha512",
+    "C:\\Users\\Sudhan_Sankara_Naray\\.nuget\\packages\\selenium.support\\4.1.1\\selenium.support.4.1.1.nupkg.sha512",
+    "C:\\Users\\Sudhan_Sankara_Naray\\.nuget\\packages\\selenium.webdriver\\4.1.1\\selenium.webdriver.4.1.1.nupkg.sha512",
+    "C:\\Users\\Sudhan_Sankara_Naray\\.nuget\\packages\\selenium.webdriver.chromedriver\\101.0.4951.4100\\selenium.webdriver.chromedriver.101.0.4951.4100.nupkg.sha512",
+    "C:\\Users\\Sudhan_Sankara_Naray\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}
