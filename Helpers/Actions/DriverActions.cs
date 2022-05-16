@@ -22,7 +22,7 @@ namespace Helpers.Actions
             return WaitUntilElementDisplayed(selector).Text;
         }
 
-        public virtual bool GetPresenceOfElement(By selector)
+        protected virtual bool GetPresenceOfElement(By selector)
         {
             return driver.FindElement(selector).Displayed;
         }
@@ -44,7 +44,7 @@ namespace Helpers.Actions
             WaitUntilElementDisplayed(selector).Clear();
         }
 
-        public virtual IWebElement WaitUntilElementDisplayed(By selector)
+        protected virtual IWebElement WaitUntilElementDisplayed(By selector)
         {
             return new WebDriverWait(driver, new TimeSpan(0, 0, 5))
                 .Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementIsVisible(selector));

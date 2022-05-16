@@ -11,13 +11,13 @@ namespace Pages
         {
         }
 
-        public override IWebElement WaitUntilElementDisplayed(By selector)
+        protected override IWebElement WaitUntilElementDisplayed(By selector)
         {
             return new WebDriverWait(driver, new TimeSpan(0, 0, 5))
                 .Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementToBeClickable(selector));
         }
 
-        public override bool GetPresenceOfElement(By selector)
+        protected override bool GetPresenceOfElement(By selector)
         {
             bool a = false;
             try

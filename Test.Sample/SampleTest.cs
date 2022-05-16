@@ -15,7 +15,6 @@ namespace Test.Sample
         [SetUp]
         public void SetUp() 
         {
-            BaseDriver.DriverType = "Chrome";
             WebDriver = new BaseDriver()
                 .SetDriver();
             

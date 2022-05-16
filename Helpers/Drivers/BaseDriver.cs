@@ -6,7 +6,7 @@ namespace Helpers.Drivers
     public class BaseDriver : IDriver
     {
         private IWebDriver driver;
-        public static string DriverType;
+        private static string Driver_Type = DriverType.Chrome.ToString();
 
         public BaseDriver()
         {
@@ -14,7 +14,7 @@ namespace Helpers.Drivers
 
         public BaseDriver SetDriver()
         {
-            switch(DriverType)
+            switch(Driver_Type)
             {
                 case "Chrome": 
                     driver = new ChromeDriver();
