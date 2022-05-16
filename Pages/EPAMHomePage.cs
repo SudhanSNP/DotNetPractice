@@ -1,4 +1,5 @@
 ﻿using OpenQA.Selenium;
+using Pages.HomeSubPage;
 
 namespace Pages
 {
@@ -9,6 +10,7 @@ namespace Pages
         }
 
         public EPAMHomeSearchPanelPage WithInSearchPanel() => new EPAMHomeSearchPanelPage(driver);
+        public EPAMHomeLanguagePanelPage WithInLanguagePanel() => new EPAMHomeLanguagePanelPage(driver);
 
         public EPAMHomePage ClickSearch()
         {
@@ -16,6 +18,16 @@ namespace Pages
             return this;
         }
 
+        public EPAMHomePage GetPresenceOfSearch(out bool isPresent)
+        {
+            isPresent = GetPresenceOfElement(By.XPath("//button[contains(@class, 'header-search__button')]"));
+            return this;
+        }
 
+        public EPAMHomePage ClickLanguage()
+        {
+            ClickElement(By.XPath("//button[contains(@class, 'location-selector__button')]"));
+            return this;
+        }
     }
 }

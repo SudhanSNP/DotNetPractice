@@ -5,27 +5,40 @@ namespace Helpers.Drivers
 {
     public class BaseDriver : IDriver
     {
-        public IWebDriver driver;
+        private IWebDriver driver;
+        public static string DriverType;
 
-        public BaseDriver(IWebDriver driver)
+        public BaseDriver()
         {
-            this.driver = driver;
+        }
+
+        public BaseDriver SetDriver()
+        {
+            switch(DriverType)
+            {
+                case "Chrome": 
+                    driver = new ChromeDriver();
+                    break;
+                case null:
+                    Console.WriteLine("Enter the valid browser");
+                    break;
+            }
+            return this;
+        }
+
+        public IWebDriver GetDriver()
+        {
+            return driver;
         }
 
         public void MaximizeDriver()
         {
-           var window = driver.Manage().Window.Maximize;
+           driver.Manage().Window.Maximize();
         }
 
         public void MinimizeDriver()
         {
-            var window = driver.Manage().Window.Minimize;
-        }
-
-        public IWebDriver SetDriver()
-        {
-            driver = new ChromeDriver();
-            return driver;
+            driver.Manage().Window.Minimize();
         }
 
         public void NavigateURL(string url)
@@ -36,6 +49,7 @@ namespace Helpers.Drivers
         public void CloseDriver()
         {
             driver.Close();
+            driver.Quit();
         }
     }
 }
