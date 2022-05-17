@@ -1,0 +1,147 @@
+The value of array element is: '1'
+The value of array element is: '2'
+The value of array element is: '4'
+The value of array element is: '10'
+The value of array element is: '12'
+The value of array element is: '23'
+The sorted value of array element is: '23'
+The sorted value of array element is: '12'
+The sorted value of array element is: '10'
+The sorted value of array element is: '4'
+The sorted value of array element is: '2'
+The sorted value of array element is: '1'
+The sorted value of array element is: '1'
+The sorted value of array element is: '2'
+The sorted value of array element is: '4'
+The sorted value of array element is: '0'
+The sorted value of array element is: '0'
+The sorted value of array element is: '0'
+-------------------------------------------------------------------------------------
+The value 'Hello' is in the Index of '0'
+The value '20' is in the Index of '1'
+The value '35.5' is in the Index of '2'
+-------------------------------------------------------------------------------------
+The Key 'Ten' has the value as '10'
+The Key 'Twenty' has the value as '20'
+The Key 'Thirty' has the value as '30'
+The Key 'Thirty Five' has the value as '35'
+-------------------------------------------------------------------------------------
+The value '10' is in the Index of '0'
+The value '20' is in the Index of '1'
+The value '30' is in the Index of '2'
+The value '35' is in the Index of '3'
+-------------------------------------------------------------------------------------
+The Key 'Ten' has the value as '10'
+The Key 'Thirty' has the value as '30'
+The Key 'Thirty Five' has the value as '35'
+The Key 'Twenty' has the value as '20'
+-------------------------------------------------------------------------------------
+The value 'Hello' is in the type of System.String
+The value '35' is in the type of System.Int32
+-------------------------------------------------------------------------------------
+Next element to get removed: 3000
+The value 'Hello' is in the type of System.String
+The value '35' is in the type of System.Int32
+-------------------------------------------------------------------------------------
+96
+96
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'True' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'True' is in the type of System.Boolean
+The value 'True' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'True' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'True' is in the type of System.Boolean
+The value 'True' is in the type of System.Boolean
+The value 'True' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+The value 'False' is in the type of System.Boolean
+-------------------------------------------------------------------------------------
+The Key '1' has the value as 'Hello'
+The Key 'Hi' has the value as '32'
+-------------------------------------------------------------------------------------
