@@ -3,13 +3,13 @@
 namespace Test.Sample.Enumarators
 {
     // Enumerator Class for iterating the Organisation (IEnumerable) class
-    public class OrganisationEnumerator : IEnumerator
+    public class OrganisationEnumarator : IEnumerator
     {
         Organisation org;
         int CurrentIndex;
         Employee CurrentEmployee;
 
-        public OrganisationEnumerator(Organisation org)
+        public OrganisationEnumarator(Organisation org)
         {
             this.org = org;
             CurrentIndex = -1;

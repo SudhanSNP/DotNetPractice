@@ -36,7 +36,7 @@ namespace Test.Sample.Enumarators
         }
         public IEnumerator GetEnumerator()
         {
-            return new OrganisationEnumerator(this);
+            return new OrganisationEnumarator(this);
         }
     }
 }

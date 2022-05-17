@@ -3,10 +3,10 @@
 namespace Test.Sample.Enumarators
 {
     [TestFixture]
-    public class EnumeratorTest
+    public class EnumaratorTest
     {
         [Test]
-        public void CustomEnumeratorTest()
+        public void CustomEnumaratorTest()
         {
             Organisation emps = new Organisation();
             emps.Add(new Employee() { Name = "Sudhan", Location = "Chennai", Role = "QA" });
