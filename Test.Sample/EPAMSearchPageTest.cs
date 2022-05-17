@@ -2,12 +2,11 @@
 using Helpers.Drivers;
 using OpenQA.Selenium;
 using Pages;
-using System;
 
 namespace Test.Sample
 {
     [TestFixture]
-    public class SampleTest
+    public class EPAMSearchPageTest
     {
         private IWebDriver driver;
         private BaseDriver WebDriver;
@@ -35,10 +34,10 @@ namespace Test.Sample
                 .ClickFind()
                 .GetResultCount(out string resultCount);
 
+            Assert.IsTrue(isPresent);
             Assert.That(resultCount, Is.EqualTo("385 RESULTS FOR " + '"' +"AUTOMATION" + '"'));
             Assert.That(position, Is.EqualTo(5));
             Assert.That(Int32.Parse(resultCount.Split(' ')[0]), Is.EqualTo(385));
-            Assert.IsTrue(isPresent);
 
             Console.WriteLine($"The test is currently in {page.GetType()}");
             Assert.IsTrue(typeof(BasePage).IsInstanceOfType(page));

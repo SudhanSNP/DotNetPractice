@@ -1,5 +1,6 @@
 ﻿using Helpers.Actions;
 using Helpers.Exceptions;
+using Helpers.Logging;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 
@@ -14,7 +15,7 @@ namespace Pages
         protected override IWebElement WaitUntilElementDisplayed(By selector)
         {
             return new WebDriverWait(driver, new TimeSpan(0, 0, 5))
-                .Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementToBeClickable(selector));
+                .Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementExists(selector));
         }
 
         protected override bool GetPresenceOfElement(By selector)
@@ -27,13 +28,13 @@ namespace Pages
             }
             catch(NoSuchElementException exp)
             {
-                Console.WriteLine($"Unable to find the element '{selector}' getting following exception : {exp.Message}");
+                Log.PrintLog(new ErrorLog().LogMessage($"Unable to find the element '{selector}' getting following exception : {exp.Message}"));
                 a = false;
             }
             finally
             {
                 if (a)
-                    Console.WriteLine($"Element '{selector}' is Present");
+                    Log.PrintLog(new InfoLog().LogMessage($"Element '{selector}' is Present"));
                 else
                     throw new ElementNotFoundException("Enter a valid Element");
             }

@@ -18,6 +18,12 @@ namespace Pages
             return this;
         }
 
+        public EPAMHomePage AcceptCookies()
+        {
+            ClickElement(By.XPath("//button[text()='Accept All']"));
+            return this;
+        }
+
         public EPAMHomePage GetPresenceOfSearch(out bool isPresent)
         {
             isPresent = GetPresenceOfElement(By.XPath("//button[contains(@class, 'header-search__button')]"));
@@ -27,6 +33,18 @@ namespace Pages
         public EPAMHomePage ClickLanguage()
         {
             ClickElement(By.XPath("//button[contains(@class, 'location-selector__button')]"));
+            return this;
+        }
+
+        public EPAMHomePage ClickRegion(string Region)
+        {
+            ClickElement(By.XPath($"//a[text()='{Region}']"));
+            return this;
+        }
+
+        public EPAMHomePage GetRegionOffice(string Region, out List<string> offices)
+        {
+            GetAttributes(By.XPath($"//a[text()='{Region}']/following::div[@class='owl-item active']/div"), "data-country", out offices);
             return this;
         }
     }

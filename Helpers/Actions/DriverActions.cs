@@ -14,12 +14,19 @@ namespace Helpers.Actions
 
         public void ClickElement(By selector)
         {
-            WaitUntilElementDisplayed(selector).Click();
+            WaitUntilElementDisplayed(selector);
+            MoveToElement(selector);
+            driver.FindElement(selector).Click();
         }
 
         public string GetText(By selector)
         {
             return WaitUntilElementDisplayed(selector).Text;
+        }
+
+        public string GetAttributes(By selector, string attribute)
+        {
+            return WaitUntilElementDisplayed(selector).GetAttribute(attribute);
         }
 
         protected virtual bool GetPresenceOfElement(By selector)
@@ -32,6 +39,13 @@ namespace Helpers.Actions
             WaitUntilElementDisplayed(selector);
             list = driver.FindElements(selector)
                 .Select(e => e.Text).ToList();
+        }
+
+        public void GetAttributes(By selector, string attribute, out List<string> list)
+        {
+            WaitUntilElementDisplayed(selector);
+            list = driver.FindElements(selector)
+                .Select(e => e.GetAttribute(attribute)).ToList();
         }
 
         public void SendText(By selector, string text)
@@ -48,6 +62,13 @@ namespace Helpers.Actions
         {
             return new WebDriverWait(driver, new TimeSpan(0, 0, 5))
                 .Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementIsVisible(selector));
+        }
+
+        protected void MoveToElement(By selector)
+        {
+            OpenQA.Selenium.Interactions.Actions actions = new OpenQA.Selenium.Interactions.Actions(driver);
+            actions.MoveToElement(driver.FindElement(selector));
+            actions.Perform();
         }
     }
 }

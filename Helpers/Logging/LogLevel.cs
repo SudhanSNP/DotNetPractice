@@ -1,0 +1,6 @@
+﻿enum LogLevel
+{
+    ERROR,
+    INFO
+}
+
