@@ -214,3 +214,6 @@ C:\DotNet\DotNetPractice\Test.Sample\obj\Debug\net6.0\refint\Test.Sample.dll
 C:\DotNet\DotNetPractice\Test.Sample\obj\Debug\net6.0\Test.Sample.pdb
 C:\DotNet\DotNetPractice\Test.Sample\obj\Debug\net6.0\Test.Sample.genruntimeconfig.cache
 C:\DotNet\DotNetPractice\Test.Sample\obj\Debug\net6.0\ref\Test.Sample.dll
+C:\DotNet\DotNetPractice\Test.Sample\bin\Debug\net6.0\RestSharp.dll
+C:\DotNet\DotNetPractice\Test.Sample\bin\Debug\net6.0\RestAPIClient.dll
+C:\DotNet\DotNetPractice\Test.Sample\bin\Debug\net6.0\RestAPIClient.pdb

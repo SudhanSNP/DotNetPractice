@@ -13,6 +13,7 @@
           "NUnit": "3.13.3",
           "NUnit3TestAdapter": "4.2.1",
           "Pages": "1.0.0",
+          "RestAPIClient": "1.0.0",
           "Selenium.Support": "4.1.1",
           "Selenium.WebDriver": "4.1.1",
           "Selenium.WebDriver.ChromeDriver": "101.0.4951.4100"
@@ -150,7 +151,7 @@
       "Microsoft.TestPlatform.TestHost/17.2.0": {
         "dependencies": {
           "Microsoft.TestPlatform.ObjectModel": "17.2.0",
-          "Newtonsoft.Json": "12.0.3"
+          "Newtonsoft.Json": "13.0.1"
         },
         "runtime": {
           "lib/netcoreapp2.1/Microsoft.TestPlatform.CommunicationUtilities.dll": {
@@ -299,11 +300,11 @@
           "Microsoft.NETCore.Platforms": "1.1.0"
         }
       },
-      "Newtonsoft.Json/12.0.3": {
+      "Newtonsoft.Json/13.0.1": {
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "assemblyVersion": "12.0.0.0",
-            "fileVersion": "12.0.3.23909"
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
           }
         }
       },
@@ -327,6 +328,14 @@
         }
       },
       "NUnit3TestAdapter/4.2.1": {},
+      "RestSharp/107.3.0": {
+        "runtime": {
+          "lib/net6.0/RestSharp.dll": {
+            "assemblyVersion": "107.3.0.0",
+            "fileVersion": "107.3.0.0"
+          }
+        }
+      },
       "Selenium.Support/4.1.1": {
         "dependencies": {
           "Selenium.WebDriver": "4.1.1"
@@ -340,7 +349,7 @@
       },
       "Selenium.WebDriver/4.1.1": {
         "dependencies": {
-          "Newtonsoft.Json": "12.0.3"
+          "Newtonsoft.Json": "13.0.1"
         },
         "runtime": {
           "lib/net5.0/WebDriver.dll": {
@@ -371,6 +380,15 @@
         },
         "runtime": {
           "Pages.dll": {}
+        }
+      },
+      "RestAPIClient/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "RestSharp": "107.3.0"
+        },
+        "runtime": {
+          "RestAPIClient.dll": {}
         }
       }
     }
@@ -430,12 +448,12 @@
       "path": "netstandard.library/2.0.0",
       "hashPath": "netstandard.library.2.0.0.nupkg.sha512"
     },
-    "Newtonsoft.Json/12.0.3": {
+    "Newtonsoft.Json/13.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
-      "path": "newtonsoft.json/12.0.3",
-      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
     },
     "NuGet.Frameworks/5.11.0": {
       "type": "package",
@@ -457,6 +475,13 @@
       "sha512": "sha512-kgH8VKsrcZZgNGQXRpVCrM7TnNz9li3b/snH+YmnXUNqsaWa1Xw9EQWHpbzq4Li2FbTjTE/E5N5HdLNXzZ8BpQ==",
       "path": "nunit3testadapter/4.2.1",
       "hashPath": "nunit3testadapter.4.2.1.nupkg.sha512"
+    },
+    "RestSharp/107.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qu+A+VAnVLX3OeWVNm11UJz0aVErqSfYqIiOUbJM9x98uLymCOoL/oXRAjMb6XHra27WXxHmzy9EKEOKXWR6Pw==",
+      "path": "restsharp/107.3.0",
+      "hashPath": "restsharp.107.3.0.nupkg.sha512"
     },
     "Selenium.Support/4.1.1": {
       "type": "package",
@@ -492,6 +517,11 @@
       "sha512": ""
     },
     "Pages/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RestAPIClient/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

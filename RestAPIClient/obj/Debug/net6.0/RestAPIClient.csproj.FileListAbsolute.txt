@@ -1,0 +1,12 @@
+C:\DotNet\DotNetPractice\RestAPIClient\obj\Debug\net6.0\RestAPIClient.csproj.AssemblyReference.cache
+C:\DotNet\DotNetPractice\RestAPIClient\obj\Debug\net6.0\RestAPIClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\DotNet\DotNetPractice\RestAPIClient\obj\Debug\net6.0\RestAPIClient.AssemblyInfoInputs.cache
+C:\DotNet\DotNetPractice\RestAPIClient\obj\Debug\net6.0\RestAPIClient.AssemblyInfo.cs
+C:\DotNet\DotNetPractice\RestAPIClient\obj\Debug\net6.0\RestAPIClient.csproj.CoreCompileInputs.cache
+C:\DotNet\DotNetPractice\RestAPIClient\bin\Debug\net6.0\RestAPIClient.deps.json
+C:\DotNet\DotNetPractice\RestAPIClient\bin\Debug\net6.0\RestAPIClient.dll
+C:\DotNet\DotNetPractice\RestAPIClient\bin\Debug\net6.0\RestAPIClient.pdb
+C:\DotNet\DotNetPractice\RestAPIClient\obj\Debug\net6.0\RestAPIClient.dll
+C:\DotNet\DotNetPractice\RestAPIClient\obj\Debug\net6.0\refint\RestAPIClient.dll
+C:\DotNet\DotNetPractice\RestAPIClient\obj\Debug\net6.0\RestAPIClient.pdb
+C:\DotNet\DotNetPractice\RestAPIClient\obj\Debug\net6.0\ref\RestAPIClient.dll
