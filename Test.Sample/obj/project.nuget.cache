@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "V5WHFNYM97Nd6MR9rALuKYeFlLyQThn4iEt9S2VQ80WpsEsaCKiFrur2Dy1JwXBujlA69gZB661t+N4sf0+xrg==",
+  "dgSpecHash": "vXvSJLBytt9knA9vUgljg9rx55GzA+KkIcRkH3huMjqOxSwTheTnhvk2c535c/2lMzaW9lTtjqvzCvcgLwmiCg==",
   "success": true,
   "projectFilePath": "C:\\DotNet\\DotNetPractice\\Test.Sample\\Test.Sample.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sudhan_Sankara_Naray\\.nuget\\packages\\dotnetseleniumextras.waithelpers\\3.11.0\\dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512",
+    "C:\\Users\\Sudhan_Sankara_Naray\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\2.2.0\\microsoft.aspnetcore.webutilities.2.2.0.nupkg.sha512",
     "C:\\Users\\Sudhan_Sankara_Naray\\.nuget\\packages\\microsoft.codecoverage\\17.2.0\\microsoft.codecoverage.17.2.0.nupkg.sha512",
+    "C:\\Users\\Sudhan_Sankara_Naray\\.nuget\\packages\\microsoft.extensions.primitives\\2.2.0\\microsoft.extensions.primitives.2.2.0.nupkg.sha512",
+    "C:\\Users\\Sudhan_Sankara_Naray\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
     "C:\\Users\\Sudhan_Sankara_Naray\\.nuget\\packages\\microsoft.net.test.sdk\\17.2.0\\microsoft.net.test.sdk.17.2.0.nupkg.sha512",
     "C:\\Users\\Sudhan_Sankara_Naray\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Sudhan_Sankara_Naray\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.2.0\\microsoft.testplatform.objectmodel.17.2.0.nupkg.sha512",
@@ -19,7 +22,11 @@
     "C:\\Users\\Sudhan_Sankara_Naray\\.nuget\\packages\\selenium.support\\4.1.1\\selenium.support.4.1.1.nupkg.sha512",
     "C:\\Users\\Sudhan_Sankara_Naray\\.nuget\\packages\\selenium.webdriver\\4.1.1\\selenium.webdriver.4.1.1.nupkg.sha512",
     "C:\\Users\\Sudhan_Sankara_Naray\\.nuget\\packages\\selenium.webdriver.chromedriver\\101.0.4951.4100\\selenium.webdriver.chromedriver.101.0.4951.4100.nupkg.sha512",
-    "C:\\Users\\Sudhan_Sankara_Naray\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
+    "C:\\Users\\Sudhan_Sankara_Naray\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
+    "C:\\Users\\Sudhan_Sankara_Naray\\.nuget\\packages\\system.memory\\4.5.1\\system.memory.4.5.1.nupkg.sha512",
+    "C:\\Users\\Sudhan_Sankara_Naray\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512",
+    "C:\\Users\\Sudhan_Sankara_Naray\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.1\\system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512",
+    "C:\\Users\\Sudhan_Sankara_Naray\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }

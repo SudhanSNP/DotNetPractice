@@ -1,5 +1,6 @@
 ﻿using Newtonsoft.Json;
 using RestSharp;
+using System.Net;
 
 namespace RestAPIClient
 {
@@ -73,13 +74,13 @@ namespace RestAPIClient
                 : throw new Exception($"Respone from '{baseUrl}' is not successful");
         }
 
-        public async Task<RestResponse> DeleteAsyncRequest(string id)
+        public async Task<HttpStatusCode> DeleteAsyncRequest(string id)
         {
             apiRequest = GetApiRequest(RequestType.Delete)
                 .AddUrlSegment("Id", id);
             
             apiResponse = await apiClient.DeleteAsync(apiRequest);
-            return apiResponse;
+            return apiResponse.StatusCode;
         }
     }
 }

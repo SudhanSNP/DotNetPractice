@@ -6,16 +6,19 @@ namespace RestAPIClient.Users
     {
         private string requestUrl = "https://reqres.in/api/users";
         private ApiClient apiClient;
+        private ApiHttpClient client;
 
         public DeleteUsersRequest()
         {
             apiClient = new ApiClient(requestUrl);
+            client = new ApiHttpClient(requestUrl);
         }
 
-        public async Task<HttpStatusCode> RemoveUserDataList(string id)
+        public async Task<HttpStatusCode> RemoveUserDataList(string id, bool isHttpClient = false)
         {
-            var response = await apiClient.DeleteAsyncRequest(id);
-            return response.StatusCode;
+            var response = (!isHttpClient) ? await apiClient.DeleteAsyncRequest(id)
+                : await client.DeleteAsyncRequest(id);
+            return response;
         }
     }
 }

@@ -6,16 +6,20 @@ namespace RestAPIClient.Users
     {
         private string requestUrl = "https://reqres.in/api/users";
         private ApiClient apiClient;
+        private ApiHttpClient client;
 
         public GetUsersRequest(Dictionary<string,string> queryParam = null)
         {
             apiClient = new ApiClient(requestUrl);
+            client = new ApiHttpClient(requestUrl);
             apiClient.queryParam = queryParam;
+            client.queryParam = queryParam;
         }
 
-        public async Task<UsersData> GetUsersDataList()
+        public async Task<UsersData> GetUsersDataList(bool isHttpClient = false)
         {
-            var response = await apiClient.GetAsyncRequest<UsersData>();
+            var response = (!isHttpClient) ? await apiClient.GetAsyncRequest<UsersData>() 
+                : await client.GetAsyncRequest<UsersData>();
             return response;
         }
     }

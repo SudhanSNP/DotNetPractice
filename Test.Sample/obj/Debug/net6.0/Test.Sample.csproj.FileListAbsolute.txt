@@ -217,3 +217,6 @@ C:\DotNet\DotNetPractice\Test.Sample\obj\Debug\net6.0\ref\Test.Sample.dll
 C:\DotNet\DotNetPractice\Test.Sample\bin\Debug\net6.0\RestSharp.dll
 C:\DotNet\DotNetPractice\Test.Sample\bin\Debug\net6.0\RestAPIClient.dll
 C:\DotNet\DotNetPractice\Test.Sample\bin\Debug\net6.0\RestAPIClient.pdb
+C:\DotNet\DotNetPractice\Test.Sample\bin\Debug\net6.0\Microsoft.AspNetCore.WebUtilities.dll
+C:\DotNet\DotNetPractice\Test.Sample\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\DotNet\DotNetPractice\Test.Sample\bin\Debug\net6.0\Microsoft.Net.Http.Headers.dll
