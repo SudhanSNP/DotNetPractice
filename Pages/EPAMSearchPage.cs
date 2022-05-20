@@ -14,6 +14,12 @@ namespace Pages
             return this;
         }
 
+        public EPAMSearchPage AcceptCookies()
+        {
+            ClickElement(By.XPath("//button[text()='Accept All']"));
+            return this;
+        }
+
         public EPAMSearchPage ClearSearch()
         {
             ClearText(By.XPath("//form[contains(@class,'search-results__panel')]/div/input"));

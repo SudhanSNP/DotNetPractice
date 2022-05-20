@@ -5,6 +5,7 @@ using Pages;
 
 namespace Tests.BDD.StepDefinitions
 {
+    [Parallelizable]
     [Binding]
     public class EPAMSearchTestStepDefinition
     {
@@ -43,6 +44,7 @@ namespace Tests.BDD.StepDefinitions
         public void ThenTheRecordMessageOfTheSearchResultShouldMatchThe(int count)
         {
             new EPAMSearchPage(driver)
+                .AcceptCookies()
                 .GetResultCount(out string resultCount);
 
             Assert.That(Int32.Parse(resultCount.Split(' ')[0]), Is.EqualTo(count));

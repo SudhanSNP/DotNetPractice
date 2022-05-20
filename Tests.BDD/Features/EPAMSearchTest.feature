@@ -2,7 +2,7 @@
 This feature is to test the EPAM Search Page.
 We will be testing the result of a particular Search
 
-@tag1
+@EPAMSkillSearchTest
 Scenario Outline: Skillset in EPAM search
 	Given I have entered the EPAM home page
 	And I have navigated to the Search panel

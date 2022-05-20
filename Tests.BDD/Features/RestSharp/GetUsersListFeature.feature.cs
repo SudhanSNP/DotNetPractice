@@ -76,11 +76,11 @@ namespace Tests.BDD.Features.RestSharp
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Verify All Users Name")]
-        [NUnit.Framework.CategoryAttribute("tag1")]
+        [NUnit.Framework.CategoryAttribute("GetUsersAPITest")]
         public virtual void VerifyAllUsersName()
         {
             string[] tagsOfScenario = new string[] {
-                    "tag1"};
+                    "GetUsersAPITest"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify All Users Name", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 7

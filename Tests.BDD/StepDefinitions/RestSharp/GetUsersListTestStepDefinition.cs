@@ -4,6 +4,7 @@ using RestAPIClient.Users.Modal;
 
 namespace Tests.BDD.StepDefinitions.RestSharp
 {
+    [Parallelizable]
     [Binding]
     public class GetUsersListTestStepDefinition
     {
@@ -22,13 +23,14 @@ namespace Tests.BDD.StepDefinitions.RestSharp
         {
             Users = await Request.GetUsersDataList();
             UserNames = Users.Data.Select(usr => usr.FirstName).ToList();
+            ScenarioContext.Current.Add("UserNames", UserNames);
         }
 
         [Then(@"The following Names should present")]
         public void ThenTheFollowingNamesShouldPresent(Table table)
         {
             var names = table.Rows.Select(t=> t["Name"]).ToList();
-            Assert.AreEqual(names, UserNames);
+            Assert.AreEqual(names, ScenarioContext.Current.Get<List<string>>("UserNames"));
         }
 
     }

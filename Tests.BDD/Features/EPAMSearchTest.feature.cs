@@ -76,13 +76,13 @@ namespace Tests.BDD.Features
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Skillset in EPAM search")]
-        [NUnit.Framework.CategoryAttribute("tag1")]
+        [NUnit.Framework.CategoryAttribute("EPAMSkillSearchTest")]
         [NUnit.Framework.TestCaseAttribute("Automation", "385", null)]
         [NUnit.Framework.TestCaseAttribute("RPA", "80", null)]
         public virtual void SkillsetInEPAMSearch(string skill, string record, string[] exampleTags)
         {
             string[] @__tags = new string[] {
-                    "tag1"};
+                    "EPAMSkillSearchTest"};
             if ((exampleTags != null))
             {
                 @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
